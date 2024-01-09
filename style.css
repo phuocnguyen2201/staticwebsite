@@ -74,6 +74,19 @@ button:hover{
     background: #FDC822;
 }
 
+a:hover{
+    color: black;
+    background: #FDC822;
+}
+a:visited{
+    color: black;
+    background: #FDC822;
+}
+a:active{
+    color: purple;
+    background: #FDC822;
+}
+
 .footer{
     background: black;
     height: 200px;

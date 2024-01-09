@@ -74,17 +74,30 @@ button:hover{
     background: #FDC822;
 }
 
-a:hover{
+.url-link:hover{
     color: black;
     background: #FDC822;
 }
-a:visited{
+.url-link:visited{
     color: black;
     background: #FDC822;
 }
-a:active{
+.url-link:active{
     color: purple;
     background: #FDC822;
+}
+
+.footer-url-link:hover{
+    text-decoration: underline;
+}
+
+.footer-url-link:visited{
+    text-decoration: underline;
+    color: #FDC822;
+}
+
+.footer-url-link:active{
+    color: purple;
 }
 
 .footer{

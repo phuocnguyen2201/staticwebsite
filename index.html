@@ -13,7 +13,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" type="text/css" href="header.css">
-    <link rel="stylesheet" type="text/css" href="styling-phuoc.css">
     <script src="https://kit.fontawesome.com/192e3b220b.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -23,22 +22,25 @@
             <div class="row"> 
                 <nav class="menu">
                     <div class="logo">
-                        <a href="/Portfolio_Project/"><img class="header-logo" alt="G6 Portfolio Logo" src="image/favicon_io/header-favicon-32x32.png"></a>
+                        <a href="/staticwebsite/"><img class="header-logo" alt="G6 Portfolio Logo" src="image/favicon_io/header-favicon-32x32.png"></a>
                     </div>
-
-                    <ul role="menubar" class="nav-list">
+                    <input type="checkbox" id="check">
+                    <label for="check" class="checkbtn">
+                        <i class="fa-solid fa-bars"></i>
+                    </label>
+                    <ul role="menubar" class="nav-list header-ul">
                         
-                        <li role="menuitem" class="has-children">
-                            <a href="/index.html">Home</a>
+                        <li role="menuitem" class="header-li">
+                            <a href="/staticwebsite/">Home</a>
                         </li>
-                        <li role="menuitem" class="has-children">
-                            <a href="/about.html">About</a>
+                        <li role="menuitem" class="header-li">
+                            <a href="/staticwebsite/about.html">About</a>
                         </li>
-                        <li role="menuitem" class="has-children">
-                            <a href="/team.html">Team</a>
+                        <li role="menuitem" class="header-li">
+                            <a href="/staticwebsite/team.html">Team</a>
                         </li>
-                        <li role="menuitem" class="has-children">
-                            <a href="/contact.html">Contact</a>
+                        <li role="menuitem" class="header-li">
+                            <a href="/staticwebsite/contact.html">Contact</a>
                         </li>
                         
                     </ul>
@@ -147,24 +149,24 @@
                     <p>Otherwise, AT able to describe the image because its well-use of description by using alt attribute.</p>
                 </div>
             </div>
-        </div>
+        
     <hr class="divider" tabindex="-1">
     <!-- Link -->
     <h2 class="title">This is an example about an url-link with/out alt-text.</h2>
-    
-            <div class="content">
-                <div class="container-lg py-5">
-                    <div class="demo-insufficent-color-container">
-                        <h2 class="title-contrast">This is link below is not contained alt.</h2>
-                        <a href="#" aria-label="" class="ddd">Go to nowhere</a>
-                    </div>
-                </div>
-                <div class="container-lg py-5"> 
-                    <h2 class="title-contrast">This is link below is contained alt.</h2>
 
-                    <a href="https://www.google.com/" aria-label="This URL link to google site">Go to google</a>
+        <div class="content">
+            <div class="container-lg py-5">
+                <div class="demo-insufficent-color-container">
+                    <h2 class="title-contrast">This is link below is not contained alt.</h2>
+                    <a href="#" aria-label="" class="ddd">Go to nowhere</a>
                 </div>
             </div>
+            <div class="container-lg py-5"> 
+                <h2 class="title-contrast">This is link below is contained alt.</h2>
+
+                <a href="https://www.google.com/" aria-label="This URL link to google site">Go to google</a>
+            </div>
+        </div>
     
     <hr class="divider" tabindex="-1">
     <!-- UL and LI -->
@@ -188,9 +190,7 @@
                 </div>
             </div>
         </div>
-    
 </div>
-
 <footer class="bg-body-tertiary text-center text-lg-start">
 
     <div class="container-lg py-5">

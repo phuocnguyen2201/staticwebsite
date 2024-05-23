@@ -12,7 +12,6 @@ body{
 
 .main{
     background: #FDC822;
-    padding-left: 16px;
 }
 
 .menu, .footer{
@@ -21,7 +20,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem calc((100vw - 1300px)/2);
+    /*padding: 1rem calc((100vw - 1300px)/2);*/
 }
 
 
@@ -34,7 +33,33 @@ body{
     height: 75px;
     width: 75px;
 }
-
+.content-white{
+    background-color: white;
+}
+.content-dark{
+    background-color: black;
+}
+.content-orange{
+    background-color: #E08E14;
+}
+.content-carboard-light{
+    background-color: #E7DFE0;
+}
+.border-full{
+    border: 1px solid black;
+}
+.border-top{
+    border-top: none;
+}
+.border-left{
+    border-left: none;
+}
+.border-right{
+    border-right: none;
+}
+.border-bottom{
+    border-bottom: none;
+}
 section{
     padding: 0 calc((100vw - 1300px)/2);
 }
@@ -119,17 +144,20 @@ button:hover{
     display: flex;
     justify-content: space-between;
 }
-
-ul{
+.header-ul{
     list-style-type: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-/*Padding and styling for LI and UL*/
-ul li{
+.header-li{
     padding: 0rem 1.5rem;
 }
+ul{
+    list-style-type: none;
+    justify-content: space-between;
+}
+/*Padding and styling for LI and UL*/
 
 li a{
     color: black;

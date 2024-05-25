@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ADA Example Page</title>
     <meta name="description" content="Explore the limitless possibilities of your future as a highly skilled freelancer, where expertise meets innovation and excellence. Your journey unfolds as a wonderful odyssey in the dynamic world of freelancing.">
+    <title>About Me</title>
 
     <link rel="icon" type="image/x-icon" href="image/favicon_io/favicon.ico">
 
+    
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -16,224 +17,218 @@
     <script src="https://kit.fontawesome.com/192e3b220b.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<div class="main">
-    <div class="header">        
-        <div class="container-lg pt-3">
-            <div class="row"> 
-                <nav class="menu">
-                    <div class="logo">
-                        <a href="/staticwebsite/"><img class="header-logo" alt="G6 Portfolio Logo" src="image/favicon_io/header-favicon-32x32.png"></a>
-                    </div>
-                    <input type="checkbox" id="check">
-                    <label for="check" class="checkbtn">
-                        <i class="fa-solid fa-bars"></i>
-                    </label>
-                    <ul role="menubar" class="nav-list header-ul">
-                        
-                        <li role="menuitem" class="header-li">
-                            <a href="/staticwebsite/">Home</a>
-                        </li>
-                        <li role="menuitem" class="header-li">
-                            <a href="/staticwebsite/about.html">About</a>
-                        </li>
-                        <li role="menuitem" class="header-li">
-                            <a href="/staticwebsite/contact.html">Contact</a>
-                        </li>
-                        
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </div>
-    <!-- This is Hero section -->
-    
-        <div class="content">
-            <div class="container-lg py-5">
+    <div class="main">
+        <div class="header">        
+            <div class="container-lg pt-3">
                 <div class="row"> 
-                    <div class="col-lg-6 col-md-12 mb-4 mt-5">
-                    <article>    
-                        <h1>This is the title go!</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <b><a class="url-link" href="https://www.lipsum.com/" aria-label="Lorem ipsum page">Learn more.</a></b></p>
-                        <button type="button" class="btn-normal">Read more</button>
-                    </article>
+                    <nav class="menu">
+                        <div class="G6">
+                            <a href="/staticwebsite/"><img class="header-logo" alt="G6 Portfolio Logo" src="image/favicon_io/header-favicon-32x32.png"></a>
+                        </div>
+                        <input type="checkbox" id="check">
+                        <label for="check" class="checkbtn">
+                            <i class="fa-solid fa-bars"></i>
+                        </label>
+                        <ul role="menubar" class="nav-list header-ul">
+                          <li role="menuitem" class="header-li">
+                              <a href="/staticwebsite/">Home</a>
+                          </li>
+                          <li role="menuitem" class="header-li">
+                              <a href="/staticwebsite/demo.html">About</a>
+                          </li>
+                        </ul>
+                    </nav>
                 </div>
-                <div class="col-lg-6 col-md-12 mb-4"><img class="img-thumbnail" alt="Blended hero image" src="image/hero.jpeg"/></div></div>
-               
-            </div>
         </div>
-    
-    <hr class="divider" tabindex="-1">
-    <!-- Radio button section -->
-    <h2 class="title">This is an example about Radio button behavior.</h2>
-    
-        <div class="content">
-            <div class="container-lg py-5">
-                <p tabindex="1">This one not working because the unintentional CSS property or tabindex property, in this case it have been hidden by CSS "display:none"</p>
-                <div class="radio-group">
-                    <input class="hidd-radio-button" type="radio" id="radio1" name="group">
-                    <label for="radio1">Yellow</label></div>
-                
-                <div class="radio-group">    
-                    <input class="hidd-radio-button" type="radio" id="radio2" name="group">
-                    <label for="radio2">Purple</label></div>
-            
-                <div class="radio-group">   
-                    <input class="hidd-radio-button" type="radio" id="radio3" name="group">
-                    <label for="radio3">Light Orange</label></div>
-             
-            </div>
-            <div class="container-lg py-5"> 
-                <p tabindex="1">This one is working</p>
-                <fieldset>
-                    <legend>Choose a color:</legend>
-                        <div class="radio-group">
-                            <input type="radio" id="color1" name="group">
-                            <label for="color1">Yellow</label></div>
-
-                
-                        <div class="radio-group">
-                            <input type="radio" id="color2" name="group">
-                            <label for="color2">Purple</label></div>
-
-            
-                        <div class="radio-group">   
-                            <input type="radio" id="color3" name="group"> 
-                            <label for="color3">Light Orange</label></div>
-
-                </fieldset>
-        </div>
-        </div>
-    
-    <hr class="divider" tabindex="-1">
-    <!-- Insufficient color contrast -->
-    <h2 class="title">This is an example about Insufficient color contrast.</h2>
-    
-        <div class="content">
-            <div class="container-lg py-5">
-                <div class="demo-insufficent-color-container">
-                    <h2 class="title-contrast">This is the title</h2>
-                    <p tabindex="1">This is an example about Insufficient color contrast.</p>
-                    <p>You might read the text, but it is still quite a painfull experience.</p>
-                </div>
-            </div>
-
-            <div class="container-lg py-5"> 
-                <h2>On this side, you can read it pretty clear.</h2>
-                <p tabindex="1">This fix this issue, you need to:</p>
-                <ul class="de-flex">
-                    <li>1. Choose the colors with the least ratio <b>4.5.1</b>.</li>
-                    <li>2. Increase <b>font-size</b> or <b>font-weight</b> to <b>bold</b> or <b>above 18pt</b>.</li>
-                    <li>3. Following these color contrast checker for <a href="https://adasitecompliance.com/ada-color-contrast-checker/"> more</a>.</li>
-                </ul>
-            </div>
-        </div>
-    
-    <hr class="divider" tabindex="-1">
-    <!-- Image -->
-    <h2 class="title">This is an example about an image without alt-text.</h2>
-    
-            <div class="content">
-                <div class="container-lg py-5">
-                    <div>
-                        <h2 class="title-contrast">This is image below is not contained alt.</h2>
-                        <img class="hero-image" src="image/house-by-the-lake.jpeg">
-                        <p class="ddd">Assistive technology (AT) won't able to describe the image because its lack of description by using alt attribute.</p>
-                    </div>
-                </div>
-                <div class="container-lg py-5"> 
-                    <h2 class="title-contrast">This is image below is contained alt.</h2>
-                    <img class="hero-image" alt="House by the lake." src="image/house-by-the-lake.jpeg">
-                    <p>Otherwise, AT able to describe the image because its well-use of description by using alt attribute.</p>
-                </div>
-            </div>
-        
-    <hr class="divider" tabindex="-1">
-    <!-- Link -->
-    <h2 class="title">This is an example about an url-link with/out alt-text.</h2>
-
-        <div class="content">
-            <div class="container-lg py-5">
-                <div class="demo-insufficent-color-container">
-                    <h2 class="title-contrast">This is link below is not contained alt.</h2>
-                    <a href="#" aria-label="" class="ddd">Go to nowhere</a>
-                </div>
-            </div>
-            <div class="container-lg py-5"> 
-                <h2 class="title-contrast">This is link below is contained alt.</h2>
-
-                <a href="https://www.google.com/" aria-label="This URL link to google site">Go to google</a>
-            </div>
-        </div>
-    
-    <hr class="divider" tabindex="-1">
-    <!-- UL and LI -->
-    <h1 class="title">This is an example about an UL or LI.</h1>
-    
-        <div class="content">
-            <div class="container-lg py-5">
-                <div class="demo-insufficent-color-container">
-                    <h2 class="title-contrast">The Unordered list lets the user know the exactly context they are seeking.</h2>
-                </div>
-            </div>
-            <div class="container-lg py-5">
-                <div class="ul-demo">  
-                    <ul>
-                        <li><strong>Item 1:</strong> Description of Item 1.</li>
-                        <li><strong>Item 2:</strong> Description of Item 2.</li>
-                        <li><strong>Item 3:</strong> Description of Item 3.</li>
-                        <li><strong>Item 4:</strong> Description of Item 4.</li>
-                        <li><strong>Item 5:</strong> Description of Item 5.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-</div>
-<footer class="bg-body-tertiary text-center text-lg-start">
-
-    <div class="container-lg py-5">
-
-      <div class="row">
-
-        <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
-  
-          <img class="header-icon" alt="G6 Portfolio footer logo" src="image/favicon_io/footer-favicon-32x32.png">
-
-          <p class="pt-3" style="color: white;">
-            2024 Copyright.
-          </p>
-        </div>
-
-        <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
-          <h5 class="text-uppercase" style="color: white; font-weight: 700;">Resource</h5>
-  
-          <p style="color: white;">
-            <a href="#!" class="text-reset">Term of use</a>
-          </p>
-          <p style="color: white;">
-            <a href="#!" class="text-reset">Legal</a>
-          </p>
-          <p style="color: white;">
-            <a href="#!" class="text-reset">About</a>
-            
-          </p>
-        </div>
-        <div class="col-lg-4 col-md-12 mb-4 mb-md-0 align-start">
-            <h5 class="text-uppercase" style="color: white; font-weight: 700;">Contact</h5>
-            <p style="color: white;">
-                <i class="bi bi-mailbox"></i>
-                info@example.com
-              </p>
-            <p style="color: white;"><i class="bi bi-telephone"></i> + 358 234 567 88</p>
-            <p style="color: white;"><i class="bi bi-telephone"></i> + 358 234 567 89</p>
-            <p style="color: white;"><i class="bi bi-house-door"></i> Finland</p>
-       
-          
-          </div>
-
-      </div>
-
     </div>
-  </footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <div class="content">   
+        <div class="container-lg py-5">
+          <div class="row">
+              <div class="col-lg-6 col-md-12 mb-4 mt-5">
+                  <h1>Hello, my name is Bruce</h1>
+                  <p>I'm currently a student seeking my second degree beside my Software Engineering degree. Still, looking for an opportunity. I have 2 years as a Developer, 2.5 years as Tester, and Test lead would love to explore Project Manager position as well.</p>
+              </div>
+              <div class="col-lg-6 col-md-12 mb-4 mt-5">
+                <img class="img-thumbnail" src="image/teams/phuoc.jpg" alt="A team in middle of a meeting">
+              </div>
+          </div>
+    </div></div>
+    
+    <div class="content-carboard-light">
+      <div class="container-lg py-4">
+        <div class="row text-center border-full">
+          <div class="col-lg-9 border-full border-top-none border-left-none border-bottom-none">
+            <h1 class="title py-3">Education</h1>
+            <div class="row">
+              <div class="col-lg-5 px-0"> 
+                <ul class="px-0">
+                  <li><strong>NIIT Hoa Sen</strong></li>
+                  <li>Software Engineering</li>
+                  <li>2011 - 2014</li>
+                  <li>Graduated with GPA 3/4</li>
+                </ul>
+              </div>
+              <div class="col-lg-7">
+                <ul class="px-0">
+                  <li><strong>Häme University of Applied Sciences</strong></li>
+                  <li>Bachelor of Business Administration in Computer Application</li>
+                  <li>2023 - 2026</li>
+                  <li>Ongoing</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 text-start">    
+            <h1 class="title pb-3">Channel</h1>
+            <ul class="px-0 social-list">
+              <li><i class="bi bi-github"></i> <a href="https://github.com/phuocnguyen2201">Github</a></li>
+              <li><i class="bi bi-linkedin"></i> <a href="https://www.linkedin.com/in/phuocnguyen2201/">Linkedin</a></li>
+            </ul></div>
+      
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="py-3">Experience</h1>
+            <ul class="px-0">
+              <li><strong>2017 - 2019 | Software Developer</strong></li>
+              
+              <li>Collaboration with client team to solve the businesses on their existed cloud-based Microsoft Dynamics CRM.</li>
+              
+            </ul>
+            <ul class="px-0">
+              <li><strong>2020 - 2022 | Tester, Test Lead</strong></li>
+              
+              <li>Ensuring the output of the product meet with client client's expectation. Implementating visual and compliance.</li>
+            </ul>
+          </div>
+          <div class="col-lg-6">
+            <h1 class="py-3">Achievement & Certificates</h1>
+            <ul class="px-0">
+              <li><strong>ISQTB Foundation</strong></li>
+              <li>Issued in 2022</li>
+            </ul>
+            <ul class="px-0">
+              <li><b>Others</b></li>
+              <li>Under my management my team have passed the ISQTB with 100% rate.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row border-full py-3">
+          <div class="col-lg-3 py-3">
+            <div class="card" style="width: 100%;">
+              <div class="card-header">
+                <h5 class="card-title">Design</h5>
+                <p class="card-text"></p>
+              </div>
+              <div class="card-body"><ul class="list-group list-group-flush">
+                <li class="list-group-item"><a href="https://www.figma.com/design/q7NmIbbgLOs9QM7C59Mfkf/Portfolio?node-id=0-1&t=ZCRB5zDzm9zTmnDL-0" class="card-link">Figma</a></li>
+              </ul></div>
+     
+            </div>
+          </div>
+          <div class="col-lg-3 py-3">
+            <div class="card" style="width: 100%;">
+              <div class="card-header">
+                <h5 class="card-title">>_ Code</h5>
+                <p class="card-text"></p>
+              </div>
+              <div class="card-body">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><a href="https://github.com/phuocnguyen2201/kotlin_practice" class="card-link">Kotlin</a></li>
+                <li class="list-group-item"><a href="https://github.com/phuocnguyen2201/git-assignment-100kmaway" class="card-link">Java</a></li>
+                <li class="list-group-item"><a href="https://github.com/phuocnguyen2201/portfolio_project_php/blob/main/js/validation.js" class="card-link">JavaScript</a></li>
+                <li class="list-group-item"><a href="https://github.com/phuocnguyen2201/portfolio_project_php" class="card-link">PHP</a></li>
+                <li class="list-group-item"><a href="https://colab.research.google.com/drive/1b-xvpzSCaxG7Pa67yPEZn8lFUBEr-zdw?authuser=1#scrollTo=YfS54mbrRa_g" class="card-link">Python</a></li>
+                <li class="list-group-item"><a href="https://github.com/phuocnguyen2201/staticwebsite" class="card-link">HTML & CSS</a></li>
+              </ul>
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-3 py-3">
+            <div class="card" style="width: 100%;">
+              <div class="card-header">
+                <h5 class="card-title">Management</h5>
+                <p class="card-text"></p>
+              </div>
+              <div class="card-body">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Agile Methodology</li>
+                <li class="list-group-item">MS Planner</li>
+                <li class="list-group-item">MS Project</li>
+                <li class="list-group-item">Jira & Confluence</li>
+              </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 py-3">
+            <div class="card" style="width: 100%;">
+              <div class="card-header">
+                <h5 class="card-title">Others</h5>
+                <p class="card-text"></p>
+              </div>
+              <div class="card-body">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><a href="https://zertdb.isqi.org/en/download/index/token/7-5aLL75X-i_yE41-x1-" class="card-link">ISQTB Foundation Certificates</a></li>
+                <li class="list-group-item"><a href="https://openbadgefactory.com/v1/assertion/410e5da47fc3c88e6711d745e010dec5e73c7fee" class="card-link">Elements Of Cloud and Cybersecurity</a></li>
+                <li class="list-group-item"><a href="https://openbadgefactory.com/c/receive?k=RZXMNHaBLOa1QL&e=phuocnguyen2201%40gmail.com&t=9b179271d395852220c68191ed08daca972445e1&v=2.0" class="card-link">Practical AI</a></li>
+                <li class="list-group-item"><a href="https://github.com/phuocnguyen2201/traefik-configuration" class="card-link">Traefik with Docker</a></li>
+                <li class="list-group-item"><a href="/image/document/HTB Academy Student Transcript.pdf" class="card-link">JavaScript Deobfuscator</a></li>
+              </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <h1 class="py-3">ACADEMIC PROJECTS</h1>
+            <ul class="px-0">
+              <li class="py-1"><strong>Data Analysis</strong>: Visualize and analysis dataset contains 3900 football players from top 6 leagues.</li>              <li class="py-1"><strong>Web Programming</strong>: Develope a website using PHP, Mysql, Figma as design tool and host on existing Apache.</li>
+              <li class="py-1"><strong>Cloud-Solution</strong>: Develop a comprehensive cloud-based business solution leveraging Microsoft Power Automate and Microsoft 365 to streamline workflows, enhance productivity for hiring process.</li>
+            </ul>
+          </div>
+        </div>
+       
+
+        </div>
+      </div>
+    </div>
+    
+    <footer class="bg-body-tertiary text-center text-lg-start">
+
+        <div class="container-lg py-5">
+    
+          <div class="row">
+    
+            <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+      
+              <img class="header-icon" alt="G6 Portfolio footer logo" src="image/favicon_io/footer-favicon-32x32.png">
+
+              <p class="pt-3" style="color: white;">
+                2024 Copyright.
+              </p>
+            </div>
+    
+            <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+
+            </div>
+            <div class="col-lg-4 col-md-12 mb-4 mb-md-0 align-start">
+                <h5 class="text-uppercase" style="color: white; font-weight: 700;">Contact</h5>
+                <p style="color: white;">
+                    <i class="bi bi-mailbox"></i>
+                    phuocatwork@gmail.com
+                  </p>
+                <p style="color: white;"><i class="bi bi-linkedin"></i> <a class="text-reset" href="https://www.linkedin.com/in/phuocnguyen2201/">Linkedin</a></p>
+                <p style="color: white;"><i class="bi bi-github"></i> <a class="text-reset" href="https://github.com/phuocnguyen2201">Github</a></p>
+           
+              
+              </div>
+    
+          </div>
+    
+        </div>
+      </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
+

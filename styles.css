@@ -275,8 +275,7 @@ li a{
     border-color: #007bff;
 }
 
-.demo-insufficent-color-container p{
-    color: white;
+.demo-insufficient-color-container p{
     font-weight: 300;
 }
 .title ,h3{
@@ -364,4 +363,14 @@ li a{
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
+}
+.insufficient-p{
+    color: #e9d5d5;
+}
+
+.not-meet{
+    color: #927474;
+}
+.best{
+    color: black;
 }
